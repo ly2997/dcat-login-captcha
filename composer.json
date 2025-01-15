@@ -1,5 +1,5 @@
 {
-    "name": "guanguans/dcat-login-captcha",
+    "name": "guanguans/dcat-plus-login-captcha",
     "description": "Dcat admin login captcha. - Dcat admin 登录验证码。",
     "license": "MIT",
     "type": "library",
