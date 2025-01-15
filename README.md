@@ -1,4 +1,4 @@
-# dcat-login-captcha
+# dcat-plus-login-captcha
 
 [简体中文](README-zh_CN.md) | [ENGLISH](README.md)
 
@@ -15,14 +15,14 @@
 
 * PHP >= 7.3
 * laravel >= 7.0
-* dcat-admin >= 2.0
+* dcat-plus-admin >= 1.3
 
 ## Installation
 
 ### Composer installation
 
 ```bash
-composer require guanguans/dcat-login-captcha --prefer-source -v
+composer require guanguans/dcat-plus-login-captcha --prefer-source -v
 ```
 
 ### Installation issues([https://github.com/guanguans/dcat-login-captcha/issues/39](https://github.com/guanguans/dcat-login-captcha/issues/39))
@@ -30,8 +30,8 @@ composer require guanguans/dcat-login-captcha --prefer-source -v
 ```shell
 composer config -g repo.packagist composer https://packagist.org -v
 composer clear-cache -v
-composer remove guanguans/dcat-login-captcha -v
-composer require guanguans/dcat-login-captcha --prefer-source -v
+composer remove guanguans/dcat-plus-login-captcha -v
+composer require guanguans/dcat-plus-login-captcha --prefer-source -v
 ```
 
 ### Backend -> Helpers -> Extensions
